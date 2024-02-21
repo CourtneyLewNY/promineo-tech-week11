@@ -1,0 +1,21 @@
+/* styles.css */
+
+/* Styling for game cell */
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 3em;
+    cursor: pointer;
+  }
+  
+  /* Display game board cells inline */
+  .row div {
+    display: inline-block;
+  }
+  
+  /* Hide game result alert by default */
+  .alert {
+    display: none;
+  }
+  
